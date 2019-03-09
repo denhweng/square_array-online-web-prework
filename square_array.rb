@@ -5,4 +5,4 @@ def square_array(array)
 end
 
 array = [1, 2, 3]
-squares = array.map {|number| number ** 2}
+squares = array.collect {|number| number ** 2}
